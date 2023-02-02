@@ -1,0 +1,26 @@
+{
+  "name": "nyc-school",
+  "version": "1.0.0",
+  "description": "NYC School is a free and open-source web-based application software that provide solution to easy students records management as well as handling both basic and advanced adminitrative operations such as admission, regiration and so on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -w",
+    "scss": "sass ./src/scss/main.scss ./dist/css/style.css --watch --update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js4-me/nyc-school.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js4-me/nyc-school/issues"
+  },
+  "homepage": "https://github.com/js4-me/nyc-school#readme",
+  "dependencies": {
+    "sass": "^1.58.0",
+    "typescript": "^4.9.5"
+  }
+}
